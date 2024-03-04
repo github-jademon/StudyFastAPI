@@ -1,5 +1,11 @@
 # StudyFastAPI
 
+## 설치 라이브러리
+```
+pip install fastapi
+pip install "uvicorn[standard]"
+```
+
 ## 실행 방법
 ```
 uvicorn main:app --reload --host=0.0.0.0 --port=8000
